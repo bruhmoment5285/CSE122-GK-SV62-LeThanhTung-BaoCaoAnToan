@@ -51,4 +51,4 @@ https://www.figma.com/design/FU0CPChHb0LapRRTIAsuIS/BTL-16-%E2%80%93-SiteSafe-%E
 ## 8. Link GitHub
 
 **Repository GitHub:**  
-https://github.com/tuyenquang2509-create/cse122-sitesafe-team01
+https://github.com/bruhmoment5285/CSE122-GK-SV62-LeThanhTung-BaoCaoAnToan
