@@ -46,7 +46,7 @@ https://www.figma.com/design/FU0CPChHb0LapRRTIAsuIS/BTL-16-%E2%80%93-SiteSafe-%E
 
 ## 7. Link video trình bày
 
-
+https://www.youtube.com/watch?v=634cJAg5kao
 
 ## 8. Link GitHub
 
