@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SiteSafe - Báo cáo an toàn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-icon">⬡</span><span>SiteSafe</span></div>
+      <p class="side-label">QUẢN LÝ CÔNG TRƯỜNG</p>
+      <nav class="menu">
+        <button class="nav-item" type="button" data-page="Bản đồ rủi ro">▦ <span>Bản đồ rủi ro</span></button>
+        <button class="nav-item" type="button" data-page="Hành động khắc phục">✓ <span>Hành động khắc phục</span></button>
+        <button class="nav-item active" type="button" data-page="Báo cáo an toàn">▣ <span>Báo cáo an toàn</span></button>
+        <button class="nav-item" type="button" data-page="AI điểm nóng">▧ <span>AI điểm nóng</span></button>
+      </nav>
+      <div class="side-project">
+        <span class="side-label">HIỆN TRƯỜNG – KHU A</span>
+        <p>Riverside – Khối A</p>
+        <p class="muted">RS-A · Đang thi công</p>
+      </div>
+      <div class="side-bottom">
+        <p>Trợ giúp & hướng dẫn</p>
+        <p>Hồ sơ cá nhân</p>
+        <p>Đăng xuất</p>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <strong>Riverside - Khối A</strong>
+        <button class="icon-button" id="notifications">🔔</button>
+        <span class="user">Lê Hoàng · Quản lý công trường</span>
+      </header>
+
+      <section class="page">
+        <div class="breadcrumbs">Quản lý công trường / Báo cáo an toàn</div>
+        <div class="page-heading">
+          <div>
+            <h1>Báo cáo an toàn</h1>
+            <p class="subheading">Tổng hợp theo kỳ: 27/09–03/10/2026 · Riverside – Khối A.</p>
+            <p class="tiny">Dữ liệu cập nhật gần nhất: 03/10/2026 · Hiển thị số liệu từ nhật ký hiện trường.</p>
+          </div>
+          <button class="primary" id="newReport">＋ Tạo báo cáo</button>
+        </div>
+
+        <div class="filters">
+          <label class="field">Tìm kiếm
+            <input id="searchInput" type="search" placeholder="⌕  Mã, nội dung hoặc người phụ trách">
+          </label>
+          <label class="field">Công trường
+            <select id="siteFilter"><option value="all">Riverside - Khối A</option><option value="zone">Khu vực thi công</option></select>
+          </label>
+          <label class="field">Kỳ lọc
+            <select id="periodFilter"><option value="week">27/09–03/10/2026</option><option value="month">Tháng 09/2026</option><option value="all">Toàn bộ thời gian</option></select>
+          </label>
+        </div>
+
+        <section class="stats">
+          <article class="stat-card"><p>Nguy cơ mở tại cuối kỳ</p><strong>24</strong><span>7 ưu tiên cao · 5 chờ duyệt</span></article>
+          <article class="stat-card"><p>Hành động xác minh đóng</p><strong>8</strong><span>Không tính 2 việc mới nộp</span></article>
+          <article class="stat-card"><p>Kiểm tra đúng lịch</p><strong>10 / 12</strong><span>2 lịch dời có lý do</span></article>
+        </section>
+
+        <section class="panel chart-panel">
+          <div class="panel-heading"><h2>Xu hướng báo cáo mới</h2><span class="tag">Ngày ghi nhận mới</span></div>
+          <div class="chart">
+            <div class="bar-column"><span>8</span><div class="bar" style="height:88%"></div><small>27/9</small></div>
+            <div class="bar-column"><span>6</span><div class="bar" style="height:66%"></div><small>28/9</small></div>
+            <div class="bar-column"><span>5</span><div class="bar" style="height:55%"></div><small>29/9</small></div>
+            <div class="bar-column"><span>4</span><div class="bar" style="height:44%"></div><small>30/9</small></div>
+            <div class="bar-column"><span>7</span><div class="bar" style="height:77%"></div><small>1/10</small></div>
+            <div class="bar-column"><span>3</span><div class="bar" style="height:33%"></div><small>2/10</small></div>
+            <div class="bar-column"><span>2</span><div class="bar" style="height:22%"></div><small>3/10</small></div>
+          </div>
+          <p class="chart-note">Số nguy cơ ghi nhận mới theo ngày · 27/09–03/10/2026. Không phải điểm an toàn.</p>
+        </section>
+
+        <div class="two-columns">
+          <section class="panel">
+            <h2>Nguy cơ mở theo nhóm</h2>
+            <table>
+              <thead><tr><th>Nhóm</th><th>Số lượng</th></tr></thead>
+              <tbody>
+                <tr><td><span class="linklike">Ngã cao</span></td><td>6</td></tr>
+                <tr><td><span class="linklike">Điện</span></td><td>5</td></tr>
+                <tr><td><span class="linklike">Vật rơi</span></td><td>4</td></tr>
+                <tr><td><span class="linklike">Lối đi / vật tư</span></td><td>6</td></tr>
+              </tbody>
+            </table>
+          </section>
+          <section class="panel">
+            <h2>Nguy cơ mở theo khu vực</h2>
+            <table>
+              <thead><tr><th>Khu vực</th><th>Số lượng</th></tr></thead>
+              <tbody>
+                <tr><td><span class="linklike">Z-A2</span></td><td>8</td></tr>
+                <tr><td><span class="linklike">Z-A1</span></td><td>6</td></tr>
+                <tr><td><span class="linklike">Z-K1</span></td><td>4</td></tr>
+                <tr><td><span class="linklike">Z-B1</span></td><td>4</td></tr>
+                <tr><td><span class="linklike">Z-C1</span></td><td>2</td></tr>
+              </tbody>
+            </table>
+          </section>
+        </div>
+
+        <section class="panel report-list">
+          <h2>Danh sách báo cáo</h2>
+          <div class="table-wrap">
+            <table id="reportsTable">
+              <thead><tr><th>Báo cáo</th><th>Kỳ</th><th>Trạng thái</th><th>Thao tác</th></tr></thead>
+              <tbody>
+                <tr data-search="rp-010 tuần 40 bản nháp"><td><span class="linklike">RP-010 · Tuần 40</span></td><td>27/09–03/10</td><td><span class="status draft">Bản nháp</span></td><td><button class="text-button view-report">Xem / Sửa</button></td></tr>
+                <tr data-search="rp-009 tuần 39 đã phát hành"><td><span class="linklike">RP-009 · Tuần 39</span></td><td>20–26/09</td><td><span class="status issued">Đã phát hành</span></td><td><button class="text-button view-report">Xem / Xuất</button></td></tr>
+                <tr data-search="rp-006 tuần 38 đã lưu trữ"><td><span class="linklike">RP-006 · Tuần 38</span></td><td>13–19/09</td><td><span class="status archived">Đã lưu trữ</span></td><td><button class="text-button view-report">Xem lịch sử</button></td></tr>
+              </tbody>
+            </table>
+            <p class="empty-state" id="emptyState" hidden>Không tìm thấy báo cáo phù hợp.</p>
+          </div>
+        </section>
+
+        <section class="panel preview">
+          <h2 id="previewTitle">Xem trước · RP-010</h2>
+          <form id="reportForm">
+            <label class="field">Tiêu đề *
+              <input id="reportName" required value="Báo cáo an toàn tuần 40 – Riverside Khối A">
+            </label>
+            <label class="field">Nhận định của quản lý
+              <textarea id="managerNote" rows="3">Ưu tiên tăng 2 thiết bị lan can và 2 hành động sửa chữa. Xác minh lại các việc được báo hoàn thành trước khi kết luận.</textarea>
+            </label>
+            <div class="info-box">Giới hạn và nguồn dữ liệu: Số liệu minh họa từ báo cáo, inspections và corrective actions; thời điểm chốt 08:55 ngày 03/10/2026. Không dùng báo cáo để khẳng định công trường an toàn tuyệt đối.</div>
+            <div class="actions">
+              <button class="primary" type="submit">Lưu bản nháp</button>
+              <button class="secondary" type="button" id="publishBtn">Phát hành báo cáo</button>
+              <button class="secondary" type="button" id="exportBtn">Xuất PDF / CSV</button>
+              <button class="secondary" type="button" id="archiveBtn">Lưu trữ</button>
+            </div>
+          </form>
+        </section>
+        <footer>manager-safety-report.html · Quyền thao tác theo vai trò được gán. Mọi thay đổi sẽ ghi lại lịch sử.</footer>
+      </section>
+    </main>
+  </div>
+  <div id="toast" class="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
