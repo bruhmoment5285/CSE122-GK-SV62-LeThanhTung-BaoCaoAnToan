@@ -44,6 +44,10 @@ Thiết kế Figma của dự án SiteSafe:
 
 https://www.figma.com/design/FU0CPChHb0LapRRTIAsuIS/BTL-16-%E2%80%93-SiteSafe-%E2%80%93-Theo-d%C3%B5i-an-to%C3%A0n-c%C3%B4ng-tr%C6%B0%E1%BB%9Dng
 
+Thiết kế Figma của trang được trình bày:
+
+https://www.figma.com/design/rxVaXcr66rAEAaprBN8vRq/BaoCaoAnToan?node-id=0-1&p=f&t=UPaBbNDDSzGmTSKl-0
+
 ## 7. Link video trình bày
 
 https://www.youtube.com/watch?v=634cJAg5kao
